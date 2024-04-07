@@ -35,7 +35,7 @@ function addBookfn(title, author, pages) {
   const book = new Book(title, author, pages);
   library.push(book);
   const display = document.createElement("div");
-  const h3 = document.createElement("h5");
+  const h5 = document.createElement("h5");
   h5.textContent = `Title Name : ${title}`;
   const p1 = document.createElement("p");
   p1.textContent = `Author Name :${author}`;
